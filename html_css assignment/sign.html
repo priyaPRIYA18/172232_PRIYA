@@ -1,0 +1,44 @@
+<!DOCType HTML>
+<head>
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body> 
+<ul class="nav navbar-nav navbar-right">
+            <li><a href="#" data-toggle="modal" data-target="#SignIn">SignIn</a></li>
+  
+        </ul>
+<div class="modal fade" id="SignIn" role="dialog">
+    
+ <div class="modal-dialog">
+  
+    
+      <div class="modal-content">
+        <div class="modal-header">
+         <h1> welcome </h1>
+                  </div>
+        <div class="modal-body">
+        <form>
+            Enter Email:<br><input type="text" name="email" pattern=".+@gmail.com" required/><br>
+            Enter Password:<br><input type="password" name="pwd" pattern="[A-Za-z0-9]{8,16}" required/><br>
+            <button type="submit" class="btn btn-info">Login</button>
+			<a href="#">Forgot Password</a><br>
+			<a href="#">Create a new account</a>
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+</div>
+</div>
+</body>
+</html>
+	  
