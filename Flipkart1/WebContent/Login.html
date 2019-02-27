@@ -15,6 +15,7 @@ input[type=text], input[type=password] {
 button {
   background-color: #4CAF50;
   color: white;
+  
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -129,28 +130,28 @@ span.psw {
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="LoginServlet" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="https://www.bing.com/th?id=OIP.4IXlt4xr_uxVBW2US-ThPgHaEK&w=258&h=160&c=7&o=5&pid=1.7" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="uname"><b>Emailid</b></label>
+      <input type="text" placeholder="Enter Username" name="email" value="him@gmail.com" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="psw" value="12" required>
         
       <button type="submit">Login</button>
       <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
+        <input type="checkbox" checked="checked" name="remember" > Remember me
       </label>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw"><a href="signup.html">signup</a></span>
+      <span class="psw"><a href="signup.jsp">signup</a></span>
     </div>
   </form>
 </div>

@@ -33,16 +33,23 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
-        <div class="panel-heading">Samsung J7 Prime</div>
-        <div class="panel-body"><img src="https://rukminim1.flixcart.com/image/400/400/jog2nbk0/mobile/e/x/b/mi-redmi-e7t-na-original-imafazxdh2bd6hep.jpeg?q=70" alt="Image"></div>  
+        <div class="panel-heading">Honor</div>
+        <div class="panel-body"><img src="https://rukminim1.flixcart.com/image/400/400/jpvihzk0/mobile/x/b/g/honor-9n-lld-al20-original-imafcysuxztcr4gz.jpeg?q=70" alt="Image"></div>  
         
       </div>
     </div>
    <div class="col-sm-8">
       <div class="panel panel-primary">
-        <div class="panel-heading">Samsung J7 Prime</div>
-        <p>3 GB RAM | 32 GB ROM | Expandable Upto 2TB</p>
-        <p>15.21 cm full HD + Display</p>
+        <div class="panel-heading">Honor</div>
+      <p> 6 GB RAM | 128 GB ROM | Expandable Upto 256 GB</p>
+<p>16.23 cm (6.39 inch) FHD+ Display</p>
+<p>48MP + 8MP + 5MP | 32MP Front Camera</p>
+<p>700 mAh Li-ion Battery</p>
+<p>Qualcomm Snapdragon 675AIE Octa Core 2.0GHz Processor</p>
+<p>48 Million Quad Pixel Sensor (12 Million Effective Pixel) + 8MP + 5MP, AI Triple Rear Camera</p>
+<p>In-display Fingerprint Scanning</p>
+<p>Dual-Engine Fast Charging</p>
+       
         <div ><button type="submit" >Buy</div> 
       </div>
     </div>
