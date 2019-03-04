@@ -1,7 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>flipkart</title>
+<meta charset="ISO-8859-1">
+<title>flipkart</title>
   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -161,6 +164,7 @@ input[type=text]:focus {
   <div class="container text-center">
     <h1>Flipkart</h1>      
     <font color='red'>Known For Quality,Vission & Values
+    
  </font>
  <div class="O8ZS_U"><input name="search" text="Search for products, brands and  more" class="LM6RPg" type="text" placeholder="Search for products, brands and more" value="" autocomplete="off"></div>
   </div>
@@ -185,8 +189,8 @@ input[type=text]:focus {
         </ul>
         
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="Login.html"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
-       <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a href="login.jsp"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+       <li><a href="ModelList.jsp"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
       </ul>
       
     </div>
@@ -201,22 +205,22 @@ input[type=text]:focus {
       <div class="panel panel-primary">
        
         <div class="panel-body"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/AmazonPay/Ankit/bau/emifest/HDFC_Desktop_card_260x260._CB454885338_SY260_.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div> <a href="wash.html"><button type="button">buy</button>
+        <div> <a href="wash.html"><button type="button">Buy</button></a>
 </div>      </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-danger">
         
         <div class="panel-body"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/AmazonPay/NocostEMI/DebitCards/PCCard/NCE_143_Desktop-Category-Card_260._CB485296061_SY260_.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div> <a href="electronic.html"><button type="button">Buy</button>
+        <div> <a href="electronic.html"><button type="button">Buy</button></a>
 </div>     
       </div>
     </div>
     <div class="col-sm-4"> 
       <div class="panel panel-success">
         
-        <div class="panel-body"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/AmazonPay/Recharges/August/1134987_260x260._CB470673279_SY260_.jpg"img-responsive" style="width:100%" alt="Image"></div>
-       <div> <a href="mobile.html"> <button type="button">Buy</button>
+        <div class="panel-body"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/AmazonPay/Recharges/August/1134987_260x260._CB470673279_SY260_.jpg"style="width:100%" alt="Image"></div>
+       <div> <a href="mobile.html"> <button type="button">Buy</button></a>
 </div> 
     
       </div>
@@ -233,7 +237,7 @@ input[type=text]:focus {
       <div class="panel panel-primary">
        
         <div class="panel-body"><img src="https://rukminim1.flixcart.com/image/400/400/jkmwdjk0/mobile/u/w/h/mi-redmi-y2-y2-original-imaf7xuvydcgrafd.jpeg?q=70" class="img-responsive" style="width:100%" alt="Image"></div>
-          <div> <a href="Samsung.html"><button type="button">buy</button>
+          <div> <a href="Samsung.html"><button type="button">Buy</button></a>
      </div>
     </div>
     </div>
@@ -241,7 +245,7 @@ input[type=text]:focus {
       <div class="panel panel-danger">
         
         <div class="panel-body"><img src="https://rukminim1.flixcart.com/image/400/400/jog2nbk0/mobile/e/x/b/mi-redmi-e7t-na-original-imafazxdh2bd6hep.jpeg?q=70" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div> <a href="phone.html"><button type="button">Buy</button>
+        <div> <a href="phone.html"><button type="button">Buy</button></a>
 </div>     
       </div>
     </div>
@@ -249,7 +253,7 @@ input[type=text]:focus {
       <div class="panel panel-success">
         
         <div class="panel-body"><img src="https://rukminim1.flixcart.com/image/400/400/jpvihzk0/mobile/x/b/g/honor-9n-lld-al20-original-imafcysuxztcr4gz.jpeg?q=70" alt="Image"></div>
-       <div> <a href="honor.jsp"><button type="button">Buy</button>
+       <div> <a href="honor.jsp"><button type="button">Buy</button></a>
 </div> 
     
       </div>

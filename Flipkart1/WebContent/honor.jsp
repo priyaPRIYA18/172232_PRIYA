@@ -50,7 +50,7 @@
 <p>In-display Fingerprint Scanning</p>
 <p>Dual-Engine Fast Charging</p>
        
-        <div ><button type="submit" >Buy</div> 
+        <div ><button type="submit" >ADD TO CART</div> 
       </div>
     </div>
 </body>

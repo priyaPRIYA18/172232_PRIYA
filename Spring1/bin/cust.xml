@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<!-- <beans>
+<bean id="CustomerDetails" class="com.spring.customer.Customer">
+<property name="customerId" value="101"></property>  
+<property name="customerName" value="Priya"></property>  
+<property name="customerContact" value="8265980789"></property>  
+<property name="customerAddress" ref="address"></property>
+
+</bean>
+<bean id="address" class="com.spring.address.Address">
+
+<property name="street" value="K-block"></property>  
+<property name="city" value="Meerut"></property>  
+<property name="state" value="U.P"></property>  
+<property name="zip" value="250004"></property>
+<property name="country" value="india"></property>
+
+</bean>
+</beans -->
+<beans>
+<bean id="CustomerDetails" class="com.spring.customer.Customer">
+<constructor-arg value="101"></constructor-arg>
+<constructor-arg value="Priya"></constructor-arg>
+<constructor-arg value="8265890678"></constructor-arg>
+<constructor-arg ref="address"></constructor-arg>
+
+</bean>
+<bean id="address" class="com.spring.address.Address">
+<constructor-arg value="K-block"></constructor-arg>
+<constructor-arg value="Meerut"></constructor-arg>
+<constructor-arg value="U.P"></constructor-arg>
+<constructor-arg value="250045"></constructor-arg>
+<constructor-arg value="india"></constructor-arg>
+</bean>
+</beans>

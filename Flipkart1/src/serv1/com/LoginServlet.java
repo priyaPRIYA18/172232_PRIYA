@@ -50,6 +50,10 @@ public class LoginServlet extends HttpServlet {
 			boolean status=false;
 			try
 			{
+				
+				
+				
+				
 				status=user.login(emailid,password);
 				System.out.println(status);
 				
@@ -58,11 +62,11 @@ public class LoginServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 			if(status==true) {
-				response.sendRedirect("Flipkart.html");
+				response.sendRedirect("Flipkart.jsp");
 				
 			}
 		else
 	{
-			response.sendRedirect("Login.html");
+			response.sendRedirect("login.jsp");
 	}
 	}}	
