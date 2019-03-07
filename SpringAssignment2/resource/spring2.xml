@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<!--  <beans>
+<bean id="QuestionDetails" class="com.spring.Question">
+<property name="questionId" value="101"></property>  
+<property name="question" value="what is spring?"></property>  
+<property name="answer" value="The Spring Framework is an application framework and inversion of control container for the Java platform"></property>  
+</bean>
+</beans> -->
+
+<beans>
+<bean id="QuestionDetails" class="com.spring.SetQuestion">
+	<property name="answer" >
+	<set>
+		<ref bean="Question1"></ref>
+		<ref bean="Question2"></ref>
+	</set>
+	</property>
+</bean>
+<bean id="Question1" class="com.spring.Question">
+<property name="questionId" value="101"></property>  
+<property name="question" value="what is java"></property>  
+<property name="answer" value="platform independent technology"></property>
+</bean>
+
+<bean id="Question2" class="com.spring.Question">
+<property name="questionId" value="101"></property>  
+<property name="question" value="what is spring?"></property>  
+<property name="answer" value="The Spring Framework is an application framework and inversion of control container for the Java platform"></property>  
+</bean>
+</beans>
